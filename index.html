@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark | Task</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <main class="container">
+        <!-- I created a form where the input is wrapped and upon submission will execute the function -->
+        <form onsubmit="handleSubmit()">
+            <!-- Simple Title and Description -->
+            <h1>Prime and Factorial Number</h1>
+            <p>This program checks if the number is prime and computes for its factorial</p>
+            <!-- Added a simple input element which only accepts numbers where 1 is minimum to avoid misinput -->
+            <!-- This textbox requires a value before allowing execution -->
+            <!-- I added a placeholder to tell the user what to do -->
+            <input type="number" name="number" id="number" required min="1" placeholder="Enter a number">
+            <!-- Added the submit button -->
+            <input type="submit">
+        </fo>
+    </main>
+</body>
+</html>
