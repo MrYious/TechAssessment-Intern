@@ -24,7 +24,7 @@ Instructions:
 
 Applicant's Note:
 
-    Since the task involves a graphical interface, I would like to use Typescript as my programming language for this simple task.
+    Since the task involves a graphical interface, I would like to use Javascript as my programming language for this simple task.
     Then I will pair it with HTML&CSS for the interface.
     My output can be checked by opening the index.html file in the browser.
 
