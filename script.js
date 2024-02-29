@@ -71,6 +71,7 @@ const handleSubmit = (event) => {
     console.log("Factorial: ", factorial);
     console.log("IsPrime?: ", isPrime);
 
+    // This is to show the result in the interface
     document.getElementById('result').style.display = 'block'
     document.getElementById("textFactorial").textContent = (`${number}! == ${factorial}`)
     document.getElementById("textPrime").textContent = (`${number} is${!isPrime ? ' NOT ' : ''} a prime number`)
