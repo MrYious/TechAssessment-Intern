@@ -6,8 +6,9 @@
 //      [1] num -> integer
 // Returns: result -> integer [The factorial of (num)]
 // Time Complexity: O(N)
-// Technique used:  
-
+// Technique used:
+//      I used looping instead of recursion as it is more memory efficient
+//      Recursion consumes a lot of memory and is considered bad practice unless necessary
 // Sample Visualization: num = 5
 //      result = 1 * 2 * 3 * 4 * 5
 
