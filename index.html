@@ -10,7 +10,7 @@
 <body>
     <main class="container">
         <!-- I created a form where the input is wrapped and upon submission will execute the function -->
-        <form onsubmit="handleSubmit(event)">
+        <form onsubmit="handleSubmit(event)" id="form">
             <!-- Simple Title and Description -->
             <h1>Prime and Factorial Number</h1>
             <p>This program checks if the number is prime and computes for its factorial</p>
@@ -20,7 +20,16 @@
             <input type="number" name="number" id="number" required min="1" placeholder="Enter a number">
             <!-- Added the submit button -->
             <input type="submit">
-        </fo>
+        </form>
+        <div id="result">
+            <h1>Result</h1>
+            <p id="textFactorial">
+                Factorial of 10: <b>11</b>
+            </p>
+            <p id="textPrime">
+                10 is NOT a prime number
+            </p>
+        </div>
     </main>
 </body>
 </html>

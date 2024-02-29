@@ -3,9 +3,19 @@
     height: 100vh;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .container form {
+    padding: 2rem;
+    border: black 2px solid;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container #result {
+    display: none;
     padding: 2rem;
     border: black 2px solid;
     border-radius: 5px;
